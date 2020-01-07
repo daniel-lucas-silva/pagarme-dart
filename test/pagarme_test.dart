@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Pagarme.platformVersion, '42');
+    expect(await PagarMe.platformVersion, '42');
   });
 }
